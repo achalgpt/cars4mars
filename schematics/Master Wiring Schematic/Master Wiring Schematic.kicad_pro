@@ -424,13 +424,17 @@
         "uuid": "2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
       }
     ],
-    "used_designators": "#PWR1-12,BT1,J1-4,F1-3,PS1-2,A1",
+    "used_designators": "#PWR1-12,BT1,J1-12,F1-3,PS1-2,A1",
     "variants": []
   },
   "sheets": [
     [
       "2e4b1b4a-890e-4898-88a8-3fbb3ecae80d",
       "Root"
+    ],
+    [
+      "7d98a00a-edcc-43e7-b715-30c343af7fed",
+      "Drive System"
     ]
   ],
   "text_variables": {},
