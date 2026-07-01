@@ -6070,7 +6070,7 @@
 	)
 	(symbol
 		(lib_id "arduino-library:Arduino_Mega2560_R3_Shield")
-		(at 121.92 80.01 0)
+		(at 132.08 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6081,7 +6081,7 @@
 		(fields_autoplaced yes)
 		(uuid "208dff30-569c-4708-9748-480234365609")
 		(property "Reference" "A1"
-			(at 121.92 140.97 0)
+			(at 132.08 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6091,7 +6091,7 @@
 			)
 		)
 		(property "Value" "Arduino_Mega2560_R3_Shield"
-			(at 121.92 143.51 0)
+			(at 132.08 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6101,7 +6101,7 @@
 			)
 		)
 		(property "Footprint" "PCM_arduino-library:Arduino_Mega2560_R3_Shield"
-			(at 121.92 153.67 0)
+			(at 132.08 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,7 +6112,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560"
-			(at 121.92 149.86 0)
+			(at 132.08 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6123,7 +6123,7 @@
 			)
 		)
 		(property "Description" "Shield for Arduino Mega 2560 R3"
-			(at 121.92 80.01 0)
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -835,9 +835,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 67.31 62.23)
+		(end 109.855 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "545b7686-37e1-4813-9b18-9732013098da")
+	)
+	(rectangle
+		(start 131.445 73.66)
+		(end 188.595 106.045)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5bf158a5-53e5-4a8b-aa95-7e7444eb5504")
+	)
 	(text "Motor Pinouts:\n1: Motor +\n2: Motor -\n3: Hall_GND\n4: Hall_VCC_5V\n5: Hall_A_Out\n6: Hall_B_Out"
 		(exclude_from_sim no)
-		(at 54.61 129.794 0)
+		(at 121.92 124.968 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -846,9 +870,29 @@
 		)
 		(uuid "724d37c6-1b2d-4e3c-a5c6-cc5f79594afe")
 	)
-	(text "Pin 1: RPWM (Reverse Speed)\nPin 2: LPWM (Forward Speed)\nPin 3: R_EN (Reverse Enable)\nPin 4: L_EN (Forward Enable)\nPin 5: R_IS (Reverse Current Alarm - often left unconnected)\nPin 6: L_IS (Forward Current Alarm - often left unconnected)\nPin 7: VCC (5V Logic Power)\nPin 8: GND (Logic Ground)"
+	(text "Left BTS7960"
 		(exclude_from_sim no)
-		(at 20.066 108.712 0)
+		(at 73.66 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82ab3958-e633-44b3-99d3-72c77b26c620")
+	)
+	(text "Right BTS7960"
+		(exclude_from_sim no)
+		(at 138.43 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acb3d615-a72c-401f-a36a-5783f5201e5c")
+	)
+	(text "Logic Pinouts\nPin 1: RPWM (Reverse Speed)\nPin 2: LPWM (Forward Speed)\nPin 3: R_EN (Reverse Enable)\nPin 4: L_EN (Forward Enable)\nPin 5: R_IS (Reverse Current Alarm - often left unconnected)\nPin 6: L_IS (Forward Current Alarm - often left unconnected)\nPin 7: VCC (5V Logic Power)\nPin 8: GND (Logic Ground)"
+		(exclude_from_sim no)
+		(at 195.834 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,9 +901,9 @@
 		)
 		(uuid "d5569045-d523-4852-af34-dc8d118cc160")
 	)
-	(text "\nPower Pinouts:\n1: B+\n2: B-\n3: Motor +\n4: Motor -"
+	(text "\nPWR Pinouts:\n1: B+\n2: B-\n3: Motor +\n4: Motor -"
 		(exclude_from_sim no)
-		(at 48.26 86.868 0)
+		(at 50.292 81.788 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -869,32 +913,32 @@
 		(uuid "d82e2a44-26fc-4e49-af5d-a3690c69b39f")
 	)
 	(junction
-		(at 100.33 105.41)
+		(at 162.56 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3e2af91-7449-4635-9f93-da95c04bd3c7")
+		(uuid "1eb863ae-8ad8-45ff-9ace-2d40809f80be")
 	)
 	(junction
-		(at 165.1 105.41)
+		(at 77.47 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a58e618a-bd97-49b8-86b8-8b7eb53b986e")
+		(uuid "68f86786-4c3c-4e04-99a9-ff192f6d1f69")
 	)
 	(junction
-		(at 97.79 107.95)
+		(at 80.01 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a661bd08-b2d7-4662-80ba-0452b8729cd9")
+		(uuid "8c332eb4-7f3e-4908-9f24-0dfa365d440e")
 	)
 	(junction
-		(at 162.56 107.95)
+		(at 160.02 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e0bf1ec1-b28a-424d-94cd-8bd331b982b2")
+		(uuid "c13a149b-8410-4f73-992a-e6c8a02c9d51")
 	)
 	(wire
 		(pts
-			(xy 128.27 118.11) (xy 128.27 107.95)
+			(xy 105.41 128.27) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -904,77 +948,37 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 100.33) (xy 97.79 100.33)
+			(xy 160.02 88.9) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "109180a3-937b-4730-9d8e-356a8c514092")
+		(uuid "131213bb-2e43-4750-8dcc-ef8b395043d2")
 	)
 	(wire
 		(pts
-			(xy 88.9 80.01) (xy 88.9 100.33)
+			(xy 160.02 107.95) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1213bd06-d713-40d4-803a-11889f546336")
+		(uuid "1f06acef-0d4c-401a-9458-c62099cec1b5")
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 100.33 97.79)
+			(xy 80.01 114.3) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "148dc405-a715-4e93-a6e1-f3c18e543d20")
+		(uuid "306245ae-e245-4e11-a1dd-369e1ff83fdb")
 	)
 	(wire
 		(pts
-			(xy 165.1 76.2) (xy 157.48 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d8c62d-ad60-4863-aa0f-f1edfc8641ab")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 157.48 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21a85538-e0b5-479f-a5a1-736aa4bafe7c")
-	)
-	(wire
-		(pts
-			(xy 193.04 107.95) (xy 162.56 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c7c432c-94ac-4016-8c54-73d12381cbd9")
-	)
-	(wire
-		(pts
-			(xy 97.79 107.95) (xy 97.79 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f0476c-ebee-4517-abd1-b09202b663e6")
-	)
-	(wire
-		(pts
-			(xy 165.1 105.41) (xy 165.1 125.73)
+			(xy 160.02 107.95) (xy 160.02 128.27)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +988,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 125.73) (xy 195.58 105.41)
+			(xy 182.88 128.27) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -994,17 +998,27 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 105.41) (xy 165.1 105.41)
+			(xy 162.56 110.49) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69820ce4-0ea6-437f-95a2-e80ab3ce6bd5")
+		(uuid "6a58eb8c-d185-4484-94e7-cb1ea36413af")
 	)
 	(wire
 		(pts
-			(xy 130.81 118.11) (xy 130.81 105.41)
+			(xy 74.93 114.3) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0b1433-b17d-4841-bd5d-bdf2fac506a0")
+	)
+	(wire
+		(pts
+			(xy 107.95 128.27) (xy 107.95 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1014,47 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 162.56 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f089ce-99ef-4aa6-9666-88af1edf3933")
-	)
-	(wire
-		(pts
-			(xy 83.82 97.79) (xy 100.33 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa2d716-4ad7-46cf-ad62-ec2550681ae5")
-	)
-	(wire
-		(pts
-			(xy 81.28 72.39) (xy 88.9 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eba6b8c-eef7-43e6-918f-8c1ff61781e6")
-	)
-	(wire
-		(pts
-			(xy 157.48 105.41) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834030a0-5fab-47a8-a303-b9fd82887632")
-	)
-	(wire
-		(pts
-			(xy 100.33 105.41) (xy 100.33 118.11)
+			(xy 77.47 111.76) (xy 77.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1064,27 +1038,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 77.47) (xy 83.82 77.47)
+			(xy 162.56 88.9) (xy 162.56 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d6a32d2-9a7a-4275-b5b7-d34e847ad704")
+		(uuid "9658c6e6-fc0d-473f-8533-77c30e054304")
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 97.79 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94ebd35-c3c7-42dd-bbe7-58e3a3eabe7b")
-	)
-	(wire
-		(pts
-			(xy 130.81 105.41) (xy 100.33 105.41)
+			(xy 107.95 111.76) (xy 77.47 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1094,7 +1058,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 107.95) (xy 162.56 125.73)
+			(xy 80.01 88.9) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b0b8e2-ce14-4a63-aa03-5b484168989f")
+	)
+	(wire
+		(pts
+			(xy 157.48 110.49) (xy 157.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1104,17 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 162.56 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8e5a64c-504d-49e2-8d82-7a8b4b76c7c9")
-	)
-	(wire
-		(pts
-			(xy 193.04 125.73) (xy 193.04 107.95)
+			(xy 180.34 128.27) (xy 180.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 107.95) (xy 97.79 118.11)
+			(xy 74.93 114.3) (xy 74.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1134,17 +1098,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 77.47) (xy 83.82 97.79)
+			(xy 77.47 88.9) (xy 77.47 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5e3ee9f-b1c7-4240-84c4-796da2286da9")
+		(uuid "f5b5703d-e971-4df7-afb5-7ac08c6fdc24")
+	)
+	(wire
+		(pts
+			(xy 162.56 110.49) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3b65da-6de5-425b-8529-36b12fd59830")
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 157.48 125.73 90)
+		(at 152.4 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1155,7 +1129,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 177.8 92.71 270)
+		(at 172.72 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1166,7 +1140,7 @@
 	)
 	(hierarchical_label "+12.8V_VBAT"
 		(shape input)
-		(at 165.1 71.12 180)
+		(at 154.94 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1177,7 +1151,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 92.71 118.11 90)
+		(at 69.85 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1188,7 +1162,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 123.19 118.11 90)
+		(at 100.33 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1199,7 +1173,7 @@
 	)
 	(hierarchical_label "FR_ENC_B"
 		(shape output)
-		(at 152.4 125.73 90)
+		(at 147.32 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1210,7 +1184,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 190.5 92.71 270)
+		(at 185.42 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1221,7 +1195,7 @@
 	)
 	(hierarchical_label "RR_ENC_B"
 		(shape output)
-		(at 182.88 125.73 90)
+		(at 170.18 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1232,7 +1206,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 160.02 125.73 90)
+		(at 154.94 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1243,7 +1217,7 @@
 	)
 	(hierarchical_label "RIGHT_PWM_R"
 		(shape input)
-		(at 172.72 92.71 270)
+		(at 167.64 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1254,7 +1228,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 104.14 92.71 270)
+		(at 92.71 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1265,7 +1239,7 @@
 	)
 	(hierarchical_label "RL_ENC_A"
 		(shape output)
-		(at 120.65 118.11 90)
+		(at 97.79 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1276,7 +1250,7 @@
 	)
 	(hierarchical_label "LEFT_PWM_F"
 		(shape input)
-		(at 101.6 92.71 270)
+		(at 90.17 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1287,7 +1261,7 @@
 	)
 	(hierarchical_label "FR_ENC_A"
 		(shape output)
-		(at 154.94 125.73 90)
+		(at 149.86 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1272,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 114.3 92.71 270)
+		(at 102.87 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1309,7 +1283,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 95.25 118.11 90)
+		(at 72.39 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1320,7 +1294,7 @@
 	)
 	(hierarchical_label "FL_ENC_B"
 		(shape output)
-		(at 87.63 118.11 90)
+		(at 64.77 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1331,7 +1305,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 106.68 92.71 270)
+		(at 95.25 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1342,7 +1316,7 @@
 	)
 	(hierarchical_label "RR_ENC_A"
 		(shape output)
-		(at 185.42 125.73 90)
+		(at 172.72 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1353,7 +1327,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 165.1 73.66 180)
+		(at 157.48 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1364,7 +1338,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 190.5 125.73 90)
+		(at 177.8 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1375,7 +1349,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 116.84 92.71 270)
+		(at 105.41 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1386,7 +1360,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 180.34 92.71 270)
+		(at 175.26 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1397,7 +1371,7 @@
 	)
 	(hierarchical_label "LEFT_PWM_R"
 		(shape input)
-		(at 99.06 92.71 270)
+		(at 87.63 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1408,7 +1382,7 @@
 	)
 	(hierarchical_label "RL_ENC_B"
 		(shape output)
-		(at 118.11 118.11 90)
+		(at 95.25 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,7 +1393,7 @@
 	)
 	(hierarchical_label "+12.8V_VBAT"
 		(shape input)
-		(at 81.28 72.39 180)
+		(at 72.39 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,7 +1404,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 187.96 125.73 90)
+		(at 175.26 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1441,7 +1415,7 @@
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
-		(at 187.96 92.71 270)
+		(at 182.88 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1452,7 +1426,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 88.9 74.93 180)
+		(at 74.93 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1463,7 +1437,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 125.73 118.11 90)
+		(at 102.87 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1474,7 +1448,7 @@
 	)
 	(hierarchical_label "FL_ENC_A"
 		(shape output)
-		(at 90.17 118.11 90)
+		(at 67.31 128.27 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1485,7 +1459,7 @@
 	)
 	(hierarchical_label "RIGHT_PWM_F"
 		(shape input)
-		(at 175.26 92.71 270)
+		(at 170.18 88.9 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1496,7 +1470,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 170.18 73.66 0)
+		(at 157.48 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1504,32 +1478,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12688af4-dc0a-4327-90f2-273d1cb72c43")
 		(property "Reference" "J7"
-			(at 172.72 73.6599 0)
+			(at 141.732 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Right_BTS7960_PWR"
-			(at 172.72 76.1999 0)
+			(at 141.732 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 73.66 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,7 +1511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 73.66 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1551,7 +1522,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 73.66 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1555,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 160.02 130.81 270)
+		(at 154.94 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1595,7 +1566,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e257283-42b9-4995-ac6a-1b4bc5633986")
 		(property "Reference" "J8"
-			(at 158.75 134.62 90)
+			(at 153.67 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1605,7 +1576,7 @@
 			)
 		)
 		(property "Value" "Front Right Motor"
-			(at 158.75 137.16 90)
+			(at 153.67 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1615,7 +1586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 130.81 0)
+			(at 154.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1626,7 +1597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 130.81 0)
+			(at 154.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1637,7 +1608,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 130.81 0)
+			(at 154.94 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1647,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 125.73 123.19 270)
+		(at 102.87 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1687,7 +1658,7 @@
 		(fields_autoplaced yes)
 		(uuid "230df534-72d9-4b95-a9f2-8160e03f29c3")
 		(property "Reference" "J5"
-			(at 124.46 127 90)
+			(at 101.6 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1697,7 +1668,7 @@
 			)
 		)
 		(property "Value" "Rear Left Motor"
-			(at 124.46 129.54 90)
+			(at 101.6 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1707,7 +1678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 123.19 0)
+			(at 102.87 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,7 +1689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 123.19 0)
+			(at 102.87 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1729,7 +1700,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 123.19 0)
+			(at 102.87 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1768,7 +1739,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 93.98 74.93 0)
+		(at 74.93 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1779,7 +1750,7 @@
 		(fields_autoplaced yes)
 		(uuid "58a880be-65a1-493e-9f16-af2e4c3b3fb0")
 		(property "Reference" "J6"
-			(at 96.52 74.9299 0)
+			(at 74.9299 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1790,7 +1761,7 @@
 			)
 		)
 		(property "Value" "Left_BTS7960_PWR"
-			(at 96.52 77.4699 0)
+			(at 77.4699 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1801,7 +1772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 74.93 0)
+			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 74.93 0)
+			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1794,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 93.98 74.93 0)
+			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1827,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 106.68 87.63 90)
+		(at 95.25 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1867,7 +1838,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f15385e-cc0e-46ce-a850-2e97077213f7")
 		(property "Reference" "J11"
-			(at 107.95 81.28 90)
+			(at 96.52 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1877,7 +1848,7 @@
 			)
 		)
 		(property "Value" "Left_BTS7960_Logic"
-			(at 107.95 83.82 90)
+			(at 96.52 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1887,7 +1858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 87.63 0)
+			(at 95.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +1869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 87.63 0)
+			(at 95.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1880,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 87.63 0)
+			(at 95.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1954,7 +1925,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 180.34 87.63 90)
+		(at 175.26 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1965,7 +1936,7 @@
 		(fields_autoplaced yes)
 		(uuid "948dbd7a-4b34-41a8-b165-8977b34777f1")
 		(property "Reference" "J12"
-			(at 181.61 81.28 90)
+			(at 176.53 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1975,7 +1946,7 @@
 			)
 		)
 		(property "Value" "Right_BTS7960_Logic"
-			(at 181.61 83.82 90)
+			(at 176.53 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1985,7 +1956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 87.63 0)
+			(at 175.26 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1996,7 +1967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 87.63 0)
+			(at 175.26 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2007,7 +1978,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 180.34 87.63 0)
+			(at 175.26 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +2023,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 190.5 130.81 270)
+		(at 177.8 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2063,7 +2034,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2cd001e-6c65-445f-b083-3356651fd91d")
 		(property "Reference" "J9"
-			(at 189.23 134.62 90)
+			(at 176.53 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2073,7 +2044,7 @@
 			)
 		)
 		(property "Value" "Rear Right Motor"
-			(at 189.23 137.16 90)
+			(at 176.53 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2083,7 +2054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 130.81 0)
+			(at 177.8 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2094,7 +2065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 130.81 0)
+			(at 177.8 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2105,7 +2076,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 130.81 0)
+			(at 177.8 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2115,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 95.25 123.19 270)
+		(at 72.39 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2155,7 +2126,7 @@
 		(fields_autoplaced yes)
 		(uuid "f362edb3-555f-49aa-b2ff-afc8761406f7")
 		(property "Reference" "J10"
-			(at 93.98 127 90)
+			(at 71.12 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2165,7 +2136,7 @@
 			)
 		)
 		(property "Value" "Front Left Motor"
-			(at 93.98 129.54 90)
+			(at 71.12 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2175,7 +2146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 123.19 0)
+			(at 72.39 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2186,7 +2157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 123.19 0)
+			(at 72.39 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2197,7 +2168,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 123.19 0)
+			(at 72.39 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
