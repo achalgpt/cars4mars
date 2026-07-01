@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "2e4b1b4a-890e-4898-88a8-3fbb3ecae80d")
 	(paper "A4")
+	(title_block
+		(title "Cars4Mars Master Schematic")
+		(date "2026-07-01")
+		(rev "1.0")
+		(company "UCT Space and Astronomy Society")
+	)
 	(lib_symbols
 		(symbol "Connector:Raspberry_Pi_4"
 			(exclude_from_sim no)
@@ -995,37 +1001,59 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "Converter_DCDC:ITX1209SA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "PS"
+				(at -7.62 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "ITX1209SA"
+				(at 1.27 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ITXxxxxSA_THT"
+				(at -26.67 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.xppower.com/pdfs/SF_ITX.pdf"
+				(at 26.67 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 9V, ±666mA, 12V Input Voltage, SIP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1036,7 +1064,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "XP_POWER DC/DC isolated Converter module"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1047,7 +1075,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_fp_filters" "*XP?POWER?ITXxxxxSA*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1058,88 +1086,11 @@
 					)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+			(symbol "ITX1209SA_0_0"
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "-Vin"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,10 +1105,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "+Vin"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1172,17 +1123,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+Vout"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1190,22 +1141,102 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-Vout"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ITX1209SA_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3946,6 +3977,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4063,6 +4233,18 @@
 		)
 	)
 	(rectangle
+		(start 15.24 48.895)
+		(end 83.82 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "66e67151-61d0-4a13-b2f1-4689a730454f")
+	)
+	(rectangle
 		(start 15.24 17.78)
 		(end 83.82 44.45)
 		(stroke
@@ -4083,6 +4265,12 @@
 			)
 		)
 		(uuid "d41565e9-b280-4c48-bac8-038eaead8edd")
+	)
+	(junction
+		(at 191.77 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8290a317-0492-476a-b0c3-b7577791e35c")
 	)
 	(junction
 		(at 45.72 36.83)
@@ -4108,6 +4296,36 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 64.77) (xy 69.85 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2446be32-8b9c-45ca-a00b-f59bbcff6a41")
+	)
+	(wire
+		(pts
+			(xy 41.91 64.77) (xy 45.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2673ea87-966e-479b-a624-c25236603652")
+	)
+	(wire
+		(pts
+			(xy 191.77 125.73) (xy 191.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f33fa04-221e-40e2-aa56-e01b433a5a53")
+	)
+	(wire
+		(pts
 			(xy 45.72 26.67) (xy 39.37 26.67)
 		)
 		(stroke
@@ -4115,6 +4333,16 @@
 			(type default)
 		)
 		(uuid "403213a1-895b-4604-9e66-cda858054950")
+	)
+	(wire
+		(pts
+			(xy 191.77 125.73) (xy 191.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4639bd3d-ca55-4273-9989-1dc0e33d030f")
 	)
 	(wire
 		(pts
@@ -4148,6 +4376,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 59.69) (xy 45.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af58250a-cd22-44be-b8cb-0d1516010612")
+	)
+	(wire
+		(pts
 			(xy 45.72 30.48) (xy 45.72 26.67)
 		)
 		(stroke
@@ -4166,9 +4404,108 @@
 		)
 		(uuid "c5e6e839-338e-4eff-83a4-9c350637a13f")
 	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60d713e-8228-45e1-aeca-a6bd902101ca")
+	)
+	(label "12.8V to 5V Buck Converter"
+		(at 15.24 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af86a19f-9c20-41c5-b13f-c1032beda501")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 191.77 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd225ce-8c6e-4586-bf3b-a1e2eb7ba293")
+		(property "Reference" "#PWR08"
+			(at 195.58 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 191.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6149df4-49ae-4000-8a0b-142c0776d8be")
+		)
+		(instances
+			(project "Master Wiring Schematic"
+				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "arduino-library:Arduino_Mega2560_R3_Shield")
-		(at 93.98 123.19 0)
+		(at 224.79 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4179,7 +4516,7 @@
 		(fields_autoplaced yes)
 		(uuid "208dff30-569c-4708-9748-480234365609")
 		(property "Reference" "A1"
-			(at 93.98 184.15 0)
+			(at 224.79 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4189,7 +4526,7 @@
 			)
 		)
 		(property "Value" "Arduino_Mega2560_R3_Shield"
-			(at 93.98 186.69 0)
+			(at 224.79 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4199,7 +4536,7 @@
 			)
 		)
 		(property "Footprint" "PCM_arduino-library:Arduino_Mega2560_R3_Shield"
-			(at 93.98 196.85 0)
+			(at 224.79 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,7 +4547,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560"
-			(at 93.98 193.04 0)
+			(at 224.79 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4221,7 +4558,7 @@
 			)
 		)
 		(property "Description" "Shield for Arduino Mega 2560 R3"
-			(at 93.98 123.19 0)
+			(at 224.79 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4514,8 +4851,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 123.19 29.21 0)
+		(lib_id "power:GND")
+		(at 69.85 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4524,31 +4861,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4b39b9c3-4d3e-4c55-9c0b-568d02abdd59")
-		(property "Reference" "J3"
-			(at 125.73 29.2099 0)
+		(uuid "41764a89-94d2-40ca-8f6f-e0317908bc84")
+		(property "Reference" "#PWR05"
+			(at 69.85 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "UBEC_5V_3A"
-			(at 125.73 31.7499 0)
+		(property "Value" "GND"
+			(at 69.85 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 29.21 0)
+			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,7 +4895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 29.21 0)
+			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,8 +4905,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 123.19 29.21 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,23 +4915,92 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "2c157c28-a59f-415d-897d-dc77c2d011fb")
-		)
-		(pin "2"
-			(uuid "bc049cb4-c54e-4e35-9817-0d38bc213036")
-		)
-		(pin "3"
-			(uuid "db63359c-0eec-458d-8a93-28cb5f2b27ab")
 		)
 		(pin "1"
-			(uuid "bdbc3861-c395-4b72-8e15-5b0249c1fdf0")
+			(uuid "05fef3c9-080b-49ce-8574-0b63c67c906a")
 		)
 		(instances
 			(project "Master Wiring Schematic"
 				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
-					(reference "J3")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "602b1682-ff92-46eb-a7f7-9d0919fe94d2")
+		(property "Reference" "#PWR04"
+			(at 41.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75a39ec0-9c32-4c40-bf25-91521569286b")
+		)
+		(instances
+			(project "Master Wiring Schematic"
+				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4877,6 +5282,414 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 39.37 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d070fea-b836-430a-ac1c-078215a1e88b")
+		(property "Reference" "F2"
+			(at 39.37 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A_Inline_Fuse"
+			(at 39.37 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 61.468 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 39.37 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f106f094-b56d-4559-91c9-82fc64ec2215")
+		)
+		(pin "2"
+			(uuid "915101e3-7bc2-41a3-a7d9-494033459c95")
+		)
+		(instances
+			(project "Master Wiring Schematic"
+				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "834bade9-ce4e-44dd-852d-dc1c44db313f")
+		(property "Reference" "#PWR06"
+			(at 66.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 69.85 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd536dce-7aa9-45a5-9460-9c8e8f55b875")
+		)
+		(instances
+			(project "Master Wiring Schematic"
+				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:ITX1209SA")
+		(at 55.88 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a9dad4c-ab1f-4eff-b015-d998d69e98bd")
+		(property "Reference" "PS1"
+			(at 55.88 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UBEC_5V_3A"
+			(at 55.88 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ITXxxxxSA_THT"
+			(at 29.21 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.xppower.com/pdfs/SF_ITX.pdf"
+			(at 82.55 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 9V, ±666mA, 12V Input Voltage, SIP"
+			(at 55.88 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "b1222632-46af-45a3-ac2e-b5c40d005ab8")
+		)
+		(pin "2"
+			(uuid "aaabf3ba-c81b-4e67-ae64-48206705b819")
+		)
+		(pin "6"
+			(uuid "52699a0b-cc7b-4da7-a47f-9e77b3a1718e")
+		)
+		(pin "7"
+			(uuid "ed1b2e44-a275-4c2c-8c0b-b5d356560804")
+		)
+		(pin "1"
+			(uuid "c1ed8af7-a07f-4e22-86b8-ddbce9f41dc9")
+		)
+		(instances
+			(project "Master Wiring Schematic"
+				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 35.56 59.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b83e10-37e4-47fb-aabf-289587c1bce7")
+		(property "Reference" "#PWR03"
+			(at 39.37 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12.8V_VBAT"
+			(at 31.75 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 35.56 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ab54a2b-07c1-4b79-89cd-31607acc3dbd")
+		)
+		(instances
+			(project "Master Wiring Schematic"
+				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58015da-dc4d-4571-bd38-e0e57f06b6a6")
+		(property "Reference" "#PWR07"
+			(at 111.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.38 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b21e8339-b4db-4648-a3c2-ee1c391ba94d")
+		)
+		(instances
+			(project "Master Wiring Schematic"
+				(path "/2e4b1b4a-890e-4898-88a8-3fbb3ecae80d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 36.83 0)
 		(unit 1)
@@ -4956,7 +5769,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Raspberry_Pi_4")
-		(at 200.66 71.12 0)
+		(at 82.55 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4967,7 +5780,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2e6ca58-07db-4333-8574-2700a2a61fe2")
 		(property "Reference" "J2"
-			(at 200.66 40.64 0)
+			(at 82.55 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4977,7 +5790,7 @@
 			)
 		)
 		(property "Value" "Raspberry_Pi_4"
-			(at 200.66 43.18 0)
+			(at 82.55 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4987,7 +5800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.764 118.618 0)
+			(at 152.654 169.418 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,7 +5812,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf"
-			(at 216.408 103.378 0)
+			(at 98.298 154.178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5011,7 +5824,7 @@
 			)
 		)
 		(property "Description" "Raspberry Pi 4 Model B"
-			(at 216.408 100.838 0)
+			(at 98.298 151.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,6 +6043,10 @@
 				)
 			)
 		)
+	)
+	(group ""
+		(uuid "81bd754e-5e1d-4dec-aea0-50edb34baa39")
+		(members "66e67151-61d0-4a13-b2f1-4689a730454f" "af86a19f-9c20-41c5-b13f-c1032beda501")
 	)
 	(group ""
 		(uuid "cc2f1209-9ba7-466f-9934-5ea4e3240199")
