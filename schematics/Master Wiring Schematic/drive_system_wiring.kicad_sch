@@ -2,13 +2,14 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a15ec6ec-d364-4a4a-8d14-573a7649320d")
+	(uuid "0ed96d6c-3ec4-4c36-84c4-0649c365271a")
 	(paper "A4")
 	(title_block
 		(title "Cars4Mars Master Schematic")
 		(date "2026-07-01")
 		(rev "1.0")
 		(company "UCT Space and Astronomy Society")
+		(comment 1 "Achal Gupta")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
