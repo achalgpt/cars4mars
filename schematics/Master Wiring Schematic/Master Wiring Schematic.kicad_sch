@@ -4915,8 +4915,8 @@
 		)
 	)
 	(rectangle
-		(start 214.63 84.455)
-		(end 283.21 107.95)
+		(start 213.36 83.185)
+		(end 281.94 106.68)
 		(stroke
 			(width 0)
 			(type default)
@@ -4927,8 +4927,8 @@
 		(uuid "66e67151-61d0-4a13-b2f1-4689a730454f")
 	)
 	(rectangle
-		(start 214.63 140.335)
-		(end 283.21 163.83)
+		(start 213.36 139.065)
+		(end 281.94 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -4939,8 +4939,8 @@
 		(uuid "7b0d5151-0236-48b3-83ad-7ced5aa92901")
 	)
 	(rectangle
-		(start 214.63 53.34)
-		(end 283.21 80.01)
+		(start 213.36 52.07)
+		(end 281.94 78.74)
 		(stroke
 			(width 0)
 			(type default)
@@ -4951,8 +4951,8 @@
 		(uuid "97638850-015d-4f32-81c8-a8f6df21452f")
 	)
 	(rectangle
-		(start 214.63 112.395)
-		(end 283.21 135.89)
+		(start 213.36 111.125)
+		(end 281.94 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -4964,7 +4964,7 @@
 	)
 	(text "Note: this converter is \nnot necessary because the \nArduino can receive power \nover USB from the \nRaspberry Pi 4 "
 		(exclude_from_sim no)
-		(at 282.956 90.932 0)
+		(at 281.686 89.662 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4976,7 +4976,7 @@
 	)
 	(text "Battery Circuitry"
 		(exclude_from_sim no)
-		(at 222.25 51.562 0)
+		(at 220.98 50.292 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4985,20 +4985,20 @@
 		(uuid "d41565e9-b280-4c48-bac8-038eaead8edd")
 	)
 	(junction
-		(at 245.11 72.39)
+		(at 243.84 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aea76357-2d7e-4571-b212-0c00ed0949a6")
 	)
 	(junction
-		(at 245.11 62.23)
+		(at 243.84 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d330193e-4afc-4b38-af0e-8de0a201b458")
 	)
 	(wire
 		(pts
-			(xy 241.3 128.27) (xy 245.11 128.27)
+			(xy 240.03 127) (xy 243.84 127)
 		)
 		(stroke
 			(width 0)
@@ -5008,7 +5008,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 62.23) (xy 251.46 62.23)
+			(xy 243.84 60.96) (xy 250.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5018,7 +5018,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 104.14) (xy 264.16 104.14)
+			(xy 259.08 102.87) (xy 262.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5028,7 +5028,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 162.56) (xy 257.81 160.02)
+			(xy 256.54 161.29) (xy 256.54 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5038,7 +5038,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 104.14) (xy 240.03 104.14)
+			(xy 85.09 135.89) (xy 86.36 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26031d31-1de6-460f-b921-b04052c39d3f")
+	)
+	(wire
+		(pts
+			(xy 234.95 102.87) (xy 238.76 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5048,7 +5058,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 62.23) (xy 238.76 62.23)
+			(xy 243.84 60.96) (xy 237.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5058,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 160.02) (xy 237.49 162.56)
+			(xy 236.22 158.75) (xy 236.22 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5068,7 +5078,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 72.39) (xy 248.92 72.39)
+			(xy 243.84 71.12) (xy 247.65 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5078,7 +5088,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 123.19) (xy 86.36 142.24)
+			(xy 85.09 143.51) (xy 85.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5088,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 162.56) (xy 257.81 162.56)
+			(xy 236.22 161.29) (xy 256.54 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5098,7 +5108,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 62.23) (xy 265.43 62.23)
+			(xy 257.81 60.96) (xy 264.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 99.06) (xy 260.35 99.06)
+			(xy 264.16 97.79) (xy 259.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5118,7 +5128,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 72.39) (xy 245.11 72.39)
+			(xy 237.49 71.12) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5128,7 +5138,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 160.02) (xy 255.27 160.02)
+			(xy 238.76 158.75) (xy 254 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5138,7 +5148,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 123.19) (xy 245.11 123.19)
+			(xy 241.3 121.92) (xy 243.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5148,7 +5158,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 66.04) (xy 245.11 62.23)
+			(xy 243.84 64.77) (xy 243.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5158,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 68.58) (xy 245.11 72.39)
+			(xy 243.84 67.31) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5168,7 +5178,17 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 123.19) (xy 269.24 123.19)
+			(xy 86.36 135.89) (xy 86.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c606a168-3e82-4dca-8d7d-33c449fb2ff3")
+	)
+	(wire
+		(pts
+			(xy 264.16 121.92) (xy 267.97 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5178,7 +5198,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 128.27) (xy 269.24 128.27)
+			(xy 264.16 127) (xy 267.97 127)
 		)
 		(stroke
 			(width 0)
@@ -5187,7 +5207,7 @@
 		(uuid "ebc9f20d-c701-4f04-9d96-0d3527fb2a52")
 	)
 	(label "Arduino Mega 2560"
-		(at 262.89 153.67 0)
+		(at 261.62 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5197,7 +5217,7 @@
 		(uuid "5f7fb032-656c-46b5-bd32-bb310356008d")
 	)
 	(label "12.8V to 5V Buck Converter for Raspberry Pi 4"
-		(at 214.63 111.76 0)
+		(at 213.36 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5207,7 +5227,7 @@
 		(uuid "76a7d5d2-c68d-44a3-b963-88a6232909b4")
 	)
 	(label "Data and Power between Raspberry Pi 4 and Arduino Mega 2560"
-		(at 214.63 139.7 0)
+		(at 213.36 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5217,7 +5237,7 @@
 		(uuid "aad53b51-27ab-4107-865e-5da497ff6cd5")
 	)
 	(label "12.8V to 5V Buck Converter for Arduino Mega 2560 (NOT NEEDED)"
-		(at 214.63 83.82 0)
+		(at 213.36 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5227,7 +5247,7 @@
 		(uuid "af86a19f-9c20-41c5-b13f-c1032beda501")
 	)
 	(label "Raspberry Pi 4"
-		(at 217.17 153.67 0)
+		(at 215.9 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5238,7 +5258,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 269.24 123.19 270)
+		(at 267.97 121.92 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5249,7 +5269,7 @@
 		(fields_autoplaced yes)
 		(uuid "078a1484-c2e7-42a7-ac65-9e4d25987ba9")
 		(property "Reference" "#PWR011"
-			(at 265.43 123.19 0)
+			(at 264.16 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5280,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 273.05 123.1899 90)
+			(at 271.78 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5271,7 +5291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 123.19 0)
+			(at 267.97 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 123.19 0)
+			(at 267.97 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5293,7 +5313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 269.24 123.19 0)
+			(at 267.97 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5317,7 +5337,7 @@
 	)
 	(symbol
 		(lib_id "arduino-library:Arduino_Mega2560_R3_Shield")
-		(at 156.21 90.17 0)
+		(at 121.92 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5328,7 +5348,7 @@
 		(fields_autoplaced yes)
 		(uuid "208dff30-569c-4708-9748-480234365609")
 		(property "Reference" "A1"
-			(at 156.21 151.13 0)
+			(at 121.92 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5338,7 +5358,7 @@
 			)
 		)
 		(property "Value" "Arduino_Mega2560_R3_Shield"
-			(at 156.21 153.67 0)
+			(at 121.92 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5348,7 +5368,7 @@
 			)
 		)
 		(property "Footprint" "PCM_arduino-library:Arduino_Mega2560_R3_Shield"
-			(at 156.21 163.83 0)
+			(at 121.92 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +5379,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.arduino.cc/hardware/mega-2560"
-			(at 156.21 160.02 0)
+			(at 121.92 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5390,7 @@
 			)
 		)
 		(property "Description" "Shield for Arduino Mega 2560 R3"
-			(at 156.21 90.17 0)
+			(at 121.92 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5664,7 +5684,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_A")
-		(at 240.03 149.86 0)
+		(at 238.76 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5674,7 +5694,7 @@
 		(dnp no)
 		(uuid "22ce91c3-a8d7-4551-9b56-e9ca78601e8d")
 		(property "Reference" "J3"
-			(at 230.632 148.082 0)
+			(at 229.362 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5684,7 +5704,7 @@
 			)
 		)
 		(property "Value" "USB_A"
-			(at 228.854 150.368 0)
+			(at 227.584 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5694,7 +5714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 151.13 0)
+			(at 242.57 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5705,7 +5725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 151.13 0)
+			(at 242.57 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5716,7 +5736,7 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
-			(at 240.03 149.86 0)
+			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5772,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 128.27 0)
+		(at 240.03 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5763,7 +5783,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cb25658-f229-4dbc-9598-257641855c7e")
 		(property "Reference" "#PWR010"
-			(at 241.3 134.62 0)
+			(at 240.03 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +5794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 133.35 0)
+			(at 240.03 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5784,7 +5804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 128.27 0)
+			(at 240.03 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5795,7 +5815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 128.27 0)
+			(at 240.03 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 128.27 0)
+			(at 240.03 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5830,7 +5850,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 104.14 0)
+		(at 262.89 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5840,7 +5860,7 @@
 		(dnp no)
 		(uuid "41764a89-94d2-40ca-8f6f-e0317908bc84")
 		(property "Reference" "#PWR05"
-			(at 264.16 110.49 0)
+			(at 262.89 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 104.394 0)
+			(at 266.7 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5861,7 +5881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 104.14 0)
+			(at 262.89 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5872,7 +5892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 104.14 0)
+			(at 262.89 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5883,7 +5903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 104.14 0)
+			(at 262.89 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,7 +5927,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 104.14 0)
+		(at 234.95 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5917,7 +5937,7 @@
 		(dnp no)
 		(uuid "602b1682-ff92-46eb-a7f7-9d0919fe94d2")
 		(property "Reference" "#PWR04"
-			(at 236.22 110.49 0)
+			(at 234.95 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5928,7 +5948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.902 104.394 0)
+			(at 230.632 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5938,7 +5958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 104.14 0)
+			(at 234.95 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5949,7 +5969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 104.14 0)
+			(at 234.95 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,7 +5980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 104.14 0)
+			(at 234.95 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5984,7 +6004,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 238.76 67.31 0)
+		(at 237.49 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5994,7 +6014,7 @@
 		(dnp no)
 		(uuid "6c953e11-e795-40e3-a013-1486b89cd6ce")
 		(property "Reference" "BT1"
-			(at 231.14 65.786 0)
+			(at 229.87 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6005,7 +6025,7 @@
 			)
 		)
 		(property "Value" "Elecstor_12.8V_24Ah"
-			(at 215.138 68.326 0)
+			(at 213.868 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6016,7 +6036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 65.786 90)
+			(at 237.49 64.516 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,7 +6047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 65.786 90)
+			(at 237.49 64.516 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +6058,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 238.76 67.31 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,7 +6069,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 238.76 67.31 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6060,7 +6080,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 238.76 67.31 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,7 +6091,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 238.76 67.31 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +6118,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 265.43 62.23 270)
+		(at 264.16 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6109,7 +6129,7 @@
 		(fields_autoplaced yes)
 		(uuid "7726ec9a-a2eb-4242-816d-5ea5eb8a292a")
 		(property "Reference" "#PWR02"
-			(at 261.62 62.23 0)
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6120,7 +6140,7 @@
 			)
 		)
 		(property "Value" "+12.8V_VBAT"
-			(at 269.24 62.2299 90)
+			(at 267.97 60.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6131,7 +6151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 62.23 0)
+			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,7 +6162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 62.23 0)
+			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6153,7 +6173,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 265.43 62.23 0)
+			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6177,7 +6197,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 250.19 66.04 0)
+		(at 248.92 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6188,7 +6208,7 @@
 		(fields_autoplaced yes)
 		(uuid "779a349d-e4d6-4437-b6af-8ce4a88303b8")
 		(property "Reference" "J1"
-			(at 252.73 66.0399 0)
+			(at 251.46 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6199,7 +6219,7 @@
 			)
 		)
 		(property "Value" "M5_Ring_Terminals"
-			(at 252.73 68.5799 0)
+			(at 251.46 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6210,7 +6230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 66.04 0)
+			(at 248.92 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,7 +6241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 66.04 0)
+			(at 248.92 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6252,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 250.19 66.04 0)
+			(at 248.92 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +6279,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 234.95 123.19 90)
+		(at 233.68 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6270,7 +6290,7 @@
 		(fields_autoplaced yes)
 		(uuid "7873e578-f2d0-46f3-8bd9-c5add40594ef")
 		(property "Reference" "#PWR09"
-			(at 238.76 123.19 0)
+			(at 237.49 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6281,7 +6301,7 @@
 			)
 		)
 		(property "Value" "+12.8V_VBAT"
-			(at 231.14 123.1899 90)
+			(at 229.87 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6292,7 +6312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 123.19 0)
+			(at 233.68 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 123.19 0)
+			(at 233.68 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,7 +6334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 234.95 123.19 0)
+			(at 233.68 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +6358,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 236.22 99.06 90)
+		(at 234.95 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6349,7 +6369,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d070fea-b836-430a-ac1c-078215a1e88b")
 		(property "Reference" "F2"
-			(at 236.22 92.71 90)
+			(at 234.95 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6359,7 +6379,7 @@
 			)
 		)
 		(property "Value" "5A_Inline_Fuse"
-			(at 236.22 95.25 90)
+			(at 234.95 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6369,7 +6389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 100.838 90)
+			(at 234.95 99.568 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6380,7 +6400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 99.06 0)
+			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6411,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 236.22 99.06 0)
+			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6418,7 +6438,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 265.43 99.06 270)
+		(at 264.16 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6429,7 +6449,7 @@
 		(fields_autoplaced yes)
 		(uuid "834bade9-ce4e-44dd-852d-dc1c44db313f")
 		(property "Reference" "#PWR06"
-			(at 261.62 99.06 0)
+			(at 260.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +6460,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 269.24 99.0599 90)
+			(at 267.97 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6451,7 +6471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 99.06 0)
+			(at 264.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +6482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 99.06 0)
+			(at 264.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +6493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 265.43 99.06 0)
+			(at 264.16 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,7 +6517,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:ITX1209SA")
-		(at 250.19 101.6 0)
+		(at 248.92 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6508,7 +6528,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a9dad4c-ab1f-4eff-b015-d998d69e98bd")
 		(property "Reference" "PS1"
-			(at 250.19 91.44 0)
+			(at 248.92 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6518,7 +6538,7 @@
 			)
 		)
 		(property "Value" "UBEC_5V_3A"
-			(at 250.19 93.98 0)
+			(at 248.92 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6528,7 +6548,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ITXxxxxSA_THT"
-			(at 223.52 107.95 0)
+			(at 222.25 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6540,7 +6560,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.xppower.com/pdfs/SF_ITX.pdf"
-			(at 276.86 109.22 0)
+			(at 275.59 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +6572,7 @@
 			)
 		)
 		(property "Description" "XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 9V, ±666mA, 12V Input Voltage, SIP"
-			(at 250.19 101.6 0)
+			(at 248.92 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6608,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B")
-		(at 255.27 149.86 0)
+		(at 254 148.59 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6599,7 +6619,7 @@
 		(dnp no)
 		(uuid "b0356172-f10a-4d34-b58f-2bac16cd673c")
 		(property "Reference" "J4"
-			(at 264.16 148.336 0)
+			(at 262.89 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6609,7 +6629,7 @@
 			)
 		)
 		(property "Value" "USB_B"
-			(at 265.938 150.368 0)
+			(at 264.668 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6619,7 +6639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 151.13 0)
+			(at 250.19 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6630,7 +6650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 151.13 0)
+			(at 250.19 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6641,7 +6661,7 @@
 			)
 		)
 		(property "Description" "USB Type B connector"
-			(at 255.27 149.86 0)
+			(at 254 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6677,7 +6697,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 232.41 99.06 90)
+		(at 231.14 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6688,7 +6708,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9b83e10-37e4-47fb-aabf-289587c1bce7")
 		(property "Reference" "#PWR03"
-			(at 236.22 99.06 0)
+			(at 234.95 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +6719,7 @@
 			)
 		)
 		(property "Value" "+12.8V_VBAT"
-			(at 228.6 99.0599 90)
+			(at 227.33 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6710,7 +6730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 99.06 0)
+			(at 231.14 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +6741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 99.06 0)
+			(at 231.14 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +6752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 232.41 99.06 0)
+			(at 231.14 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,7 +6776,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 238.76 123.19 90)
+		(at 237.49 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6767,7 +6787,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccf45657-64a9-4adf-8f0f-835c3ba114ad")
 		(property "Reference" "F3"
-			(at 238.76 116.84 90)
+			(at 237.49 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6777,7 +6797,7 @@
 			)
 		)
 		(property "Value" "5A_Inline_Fuse"
-			(at 238.76 119.38 90)
+			(at 237.49 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6787,7 +6807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 124.968 90)
+			(at 237.49 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,7 +6818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 123.19 0)
+			(at 237.49 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +6829,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 238.76 123.19 0)
+			(at 237.49 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6935,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 128.27 0)
+		(at 267.97 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6926,7 +6946,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9de5f77-8277-451c-a7cd-1e8144e2a5ce")
 		(property "Reference" "#PWR012"
-			(at 269.24 134.62 0)
+			(at 267.97 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,7 +6957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 133.35 0)
+			(at 267.97 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6947,7 +6967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 128.27 0)
+			(at 267.97 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6958,7 +6978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 128.27 0)
+			(at 267.97 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6969,7 +6989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 128.27 0)
+			(at 267.97 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,7 +7013,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:ITX1209SA")
-		(at 255.27 125.73 0)
+		(at 254 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7004,7 +7024,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2aaca47-8813-401a-8cfb-4da9f78c01b8")
 		(property "Reference" "PS2"
-			(at 255.27 115.57 0)
+			(at 254 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7014,7 +7034,7 @@
 			)
 		)
 		(property "Value" "UBEC_5V_3A"
-			(at 255.27 118.11 0)
+			(at 254 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7024,7 +7044,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_XP_POWER-ITXxxxxSA_THT"
-			(at 228.6 132.08 0)
+			(at 227.33 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7036,7 +7056,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.xppower.com/pdfs/SF_ITX.pdf"
-			(at 281.94 133.35 0)
+			(at 280.67 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,7 +7068,7 @@
 			)
 		)
 		(property "Description" "XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 9V, ±666mA, 12V Input Voltage, SIP"
-			(at 255.27 125.73 0)
+			(at 254 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7084,7 +7104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 72.39 0)
+		(at 247.65 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7095,7 +7115,7 @@
 		(fields_autoplaced yes)
 		(uuid "e98ca76d-6a03-4b9a-97fe-b2875f32a281")
 		(property "Reference" "#PWR01"
-			(at 248.92 78.74 0)
+			(at 247.65 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,7 +7126,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 77.47 0)
+			(at 247.65 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7116,7 +7136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 72.39 0)
+			(at 247.65 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +7147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 72.39 0)
+			(at 247.65 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7138,7 +7158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 72.39 0)
+			(at 247.65 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +7182,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Raspberry_Pi_4")
-		(at 57.15 146.05 0)
+		(at 52.07 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7173,7 +7193,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2e6ca58-07db-4333-8574-2700a2a61fe2")
 		(property "Reference" "J2"
-			(at 57.15 115.57 0)
+			(at 52.07 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7183,7 +7203,7 @@
 			)
 		)
 		(property "Value" "Raspberry_Pi_4"
-			(at 57.15 118.11 0)
+			(at 52.07 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7193,7 +7213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.254 193.548 0)
+			(at 122.174 213.868 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,7 +7225,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf"
-			(at 72.898 178.308 0)
+			(at 67.818 198.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7237,7 @@
 			)
 		)
 		(property "Description" "Raspberry Pi 4 Model B"
-			(at 72.898 175.768 0)
+			(at 67.818 196.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7359,7 +7379,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 255.27 62.23 90)
+		(at 254 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7370,7 +7390,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcd550e4-ddfa-4595-8af5-33b00e2af16e")
 		(property "Reference" "F1"
-			(at 255.27 55.88 90)
+			(at 254 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7380,7 +7400,7 @@
 			)
 		)
 		(property "Value" "40A_MIDI_Fuse"
-			(at 255.27 58.42 90)
+			(at 254 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7390,7 +7410,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 64.008 90)
+			(at 254 62.738 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7401,7 +7421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 62.23 0)
+			(at 254 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,7 +7432,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 255.27 62.23 0)
+			(at 254 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7467,8 +7487,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 16.51)
-		(size 68.58 30.48)
+		(at 177.165 52.07)
+		(size 34.29 110.49)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7483,7 +7503,7 @@
 		)
 		(uuid "7d98a00a-edcc-43e7-b715-30c343af7fed")
 		(property "Sheetname" "Drive System"
-			(at 214.63 15.7984 0)
+			(at 177.165 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7494,7 +7514,7 @@
 			)
 		)
 		(property "Sheetfile" "drive_system_wiring.kicad_sch"
-			(at 214.63 47.5746 0)
+			(at 177.165 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7502,6 +7522,326 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 160.02 180)
+			(uuid "c0471d8f-61fe-485b-a277-28da25193a5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 68.58 180)
+			(uuid "52969ffd-6ba2-405a-998a-f4ec9f28613e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 71.12 180)
+			(uuid "1697db6e-f072-4734-b2c7-a87268947ba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 73.66 180)
+			(uuid "ec711b55-fe9e-4914-9bac-5dc676b698ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 144.78 180)
+			(uuid "9a8f1e7d-f12f-4a3a-9b8a-faf1da335d5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT_PWM_F" input
+			(at 177.165 92.71 180)
+			(uuid "e29584fd-419c-4d13-ba85-a95da80f3ddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT_PWM_R" input
+			(at 177.165 95.25 180)
+			(uuid "0ecdb895-5318-46fa-8e4d-6f48d4699178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 142.24 180)
+			(uuid "57394a13-2fa3-4987-873f-0dd9adf1905c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 76.2 180)
+			(uuid "baf59059-435c-42a4-bb27-e07940f389e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+12.8V_VBAT" input
+			(at 177.165 57.15 180)
+			(uuid "727af4f2-749a-49e0-9f34-fb24d2c62723")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 149.86 180)
+			(uuid "593f08c2-6917-49ef-8430-c3988f3213a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 78.74 180)
+			(uuid "faa20b59-2442-4ce8-89b1-72c1ce8032e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RL_ENC_B" output
+			(at 177.165 127 180)
+			(uuid "c9bee6de-22f5-4e68-9595-596e9a7f0e13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RL_ENC_A" output
+			(at 177.165 124.46 180)
+			(uuid "d9e604b2-3101-459b-bb0c-4ca066d642ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FL_ENC_B" output
+			(at 177.165 118.11 180)
+			(uuid "3576f00d-7262-4c9e-8068-ad9c32187be6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FL_ENC_A" output
+			(at 177.165 115.57 180)
+			(uuid "25e62fd6-147b-4ac5-8d1e-75e80c3e152d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 81.28 180)
+			(uuid "a688b565-88a7-46c4-9baa-b3477b15dab6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 147.32 180)
+			(uuid "90f43147-1e09-445e-b53b-e4301499714c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 86.36 180)
+			(uuid "41ffd5b9-b521-416e-9ab2-62c9f578e8e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIGHT_PWM_F" input
+			(at 177.165 100.33 180)
+			(uuid "fe0c783b-60e5-4923-9fff-b0992f0f43e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RIGHT_PWM_R" input
+			(at 177.165 97.79 180)
+			(uuid "e61c4452-a52f-4518-a81b-5d0799993994")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 152.4 180)
+			(uuid "2cc2ae01-503f-45ef-9a80-9b772701fbf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+12.8V_VBAT" input
+			(at 177.165 54.61 180)
+			(uuid "91d530af-6e81-460c-b789-9b3039ffd45d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 66.04 180)
+			(uuid "8c297918-43d3-496f-93a0-30a244aa5ca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 63.5 180)
+			(uuid "2b1ccebe-0c4e-450b-9abf-1d80685f0684")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_LOGIC" input
+			(at 177.165 83.82 180)
+			(uuid "2b54c6d8-84cf-4c7f-b205-f42371a6c13f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 154.94 180)
+			(uuid "904cf843-5740-4f99-af05-a9385133c77e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RR_ENC_B" output
+			(at 177.165 135.89 180)
+			(uuid "c941d97b-9322-4d6c-bea0-131450f41853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RR_ENC_A" output
+			(at 177.165 133.35 180)
+			(uuid "de1a7add-495f-4093-9ac7-7b3c0eb3344c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 177.165 157.48 180)
+			(uuid "f34d74b3-43a6-4a93-b479-70ccb78555a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FR_ENC_B" output
+			(at 177.165 109.22 180)
+			(uuid "1eb91e33-e1fa-4b62-ac5f-45a82760b57c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FR_ENC_A" output
+			(at 177.165 106.68 180)
+			(uuid "61cb0e9c-bee7-40a3-a0e1-2a454340791f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

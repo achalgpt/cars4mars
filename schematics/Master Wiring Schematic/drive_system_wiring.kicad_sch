@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "81175be6-312a-4aab-a3c0-694e6f982ea2")
+	(uuid "a15ec6ec-d364-4a4a-8d14-573a7649320d")
 	(paper "A4")
 	(title_block
 		(title "Cars4Mars Master Schematic")
@@ -1196,6 +1196,17 @@
 		)
 		(uuid "329f4e14-0bb5-4f2c-a3d7-5892481d0c99")
 	)
+	(hierarchical_label "FR_ENC_B"
+		(shape output)
+		(at 152.4 125.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33d04a22-60dd-4585-aec5-32d7f78ff4f6")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 190.5 92.71 270)
@@ -1206,6 +1217,17 @@
 			(justify right)
 		)
 		(uuid "43aebcb3-2e9f-437f-99fd-e3d62f9af088")
+	)
+	(hierarchical_label "RR_ENC_B"
+		(shape output)
+		(at 182.88 125.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "441e1ff7-13e9-46c5-82ec-60352c235adf")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1218,6 +1240,17 @@
 		)
 		(uuid "50c19b6f-65c8-4c0f-9f6b-5ca2d5e5e6c1")
 	)
+	(hierarchical_label "RIGHT_PWM_R"
+		(shape input)
+		(at 172.72 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53dc874d-b3b5-4685-bc04-aaba90d95834")
+	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
 		(at 104.14 92.71 270)
@@ -1228,6 +1261,39 @@
 			(justify right)
 		)
 		(uuid "572fe90d-dc57-4e39-af3c-177df6124f1a")
+	)
+	(hierarchical_label "RL_ENC_A"
+		(shape output)
+		(at 120.65 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "605c08cc-4982-4cd6-88f4-2e40a688358e")
+	)
+	(hierarchical_label "LEFT_PWM_F"
+		(shape input)
+		(at 101.6 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65f15c59-787c-492b-9d47-6017c3ed30c0")
+	)
+	(hierarchical_label "FR_ENC_A"
+		(shape output)
+		(at 154.94 125.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fc0ad03-c7ba-4b67-9b77-05dead18d098")
 	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
@@ -1251,6 +1317,17 @@
 		)
 		(uuid "7ffa6ee0-30f8-415d-9b8e-d80ec12a2a92")
 	)
+	(hierarchical_label "FL_ENC_B"
+		(shape output)
+		(at 87.63 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "899a2045-0ca1-4962-acc4-17b42491657c")
+	)
 	(hierarchical_label "+5V_LOGIC"
 		(shape input)
 		(at 106.68 92.71 270)
@@ -1261,6 +1338,17 @@
 			(justify right)
 		)
 		(uuid "8ce78914-ee17-4975-b54b-81791fc4367a")
+	)
+	(hierarchical_label "RR_ENC_A"
+		(shape output)
+		(at 185.42 125.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "941dc8a0-f7ac-4f4a-ae03-79dae63d3a53")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1305,6 +1393,28 @@
 			(justify right)
 		)
 		(uuid "ca790d79-7662-4db4-bcb0-4f1dbd4f4942")
+	)
+	(hierarchical_label "LEFT_PWM_R"
+		(shape input)
+		(at 99.06 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc937e8a-a130-404c-9079-b28881e51966")
+	)
+	(hierarchical_label "RL_ENC_B"
+		(shape output)
+		(at 118.11 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d21563f9-9f16-44ef-a5d1-4c3b434fbe6c")
 	)
 	(hierarchical_label "+12.8V_VBAT"
 		(shape input)
@@ -1360,6 +1470,28 @@
 			(justify left)
 		)
 		(uuid "ea37302a-6538-4d32-b1f3-a8be5cf22222")
+	)
+	(hierarchical_label "FL_ENC_A"
+		(shape output)
+		(at 90.17 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed2803cd-4a1d-4fd9-8f76-fe0cd42da774")
+	)
+	(hierarchical_label "RIGHT_PWM_F"
+		(shape input)
+		(at 175.26 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faf940c5-de9b-44aa-936c-8cd9a22748d9")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
